@@ -1,4 +1,4 @@
-package com.example.materialdesigntesting;
+package com.example.myapplication;
 
 import androidx.appcompat.app.AppCompatActivity;
 

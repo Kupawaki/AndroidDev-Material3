@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="GradleMigrationSettings" migrationVersion="1" />
   <component name="GradleSettings">
     <option name="linkedExternalProjectsSettings">
       <GradleProjectSettings>
@@ -9,19 +10,7 @@
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$" />
-            <option value="$PROJECT_DIR$/catalog" />
-            <option value="$PROJECT_DIR$/lib" />
-            <option value="$PROJECT_DIR$/testing" />
-            <option value="$PROJECT_DIR$/testing/java" />
-            <option value="$PROJECT_DIR$/testing/java/com" />
-            <option value="$PROJECT_DIR$/testing/java/com/google" />
-            <option value="$PROJECT_DIR$/testing/java/com/google/android" />
-            <option value="$PROJECT_DIR$/testing/java/com/google/android/material" />
-            <option value="$PROJECT_DIR$/testing/java/com/google/android/material/testapp" />
-            <option value="$PROJECT_DIR$/testing/java/com/google/android/material/testapp/animation" />
-            <option value="$PROJECT_DIR$/testing/java/com/google/android/material/testapp/base" />
-            <option value="$PROJECT_DIR$/testing/java/com/google/android/material/testapp/custom" />
-            <option value="$PROJECT_DIR$/testing/java/com/google/android/material/testapp/theme" />
+            <option value="$PROJECT_DIR$/app" />
           </set>
         </option>
         <option name="resolveModulePerSourceSet" value="false" />
