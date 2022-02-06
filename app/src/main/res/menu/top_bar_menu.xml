@@ -1,0 +1,25 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/favorite"
+        android:icon="@drawable/button_icon"
+        android:title="Favorites"
+        android:contentDescription="Everything you like, in one place"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/search"
+        android:icon="@drawable/button_icon"
+        android:title="Settings"
+        android:contentDescription="Cool little settings menu"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/more"
+        android:icon="@drawable/button_icon"
+        android:title="Break"
+        android:contentDescription="This may or may not break the app"
+        app:showAsAction="never" />
+
+</menu>
