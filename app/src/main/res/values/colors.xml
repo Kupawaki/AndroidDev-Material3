@@ -1,24 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <!--Colors that were already here and I cant remove without causing the app to implode-->
-    <!--<color name="purple_200">#FFBB86FC</color>
-    <color name="purple_500">#FF6200EE</color>
-    <color name="purple_700">#FF3700B3</color>
-    <color name="teal_200">#FF03DAC5</color>
-    <color name="teal_700">#FF018786</color>
-    <color name="black">#FF000000</color>
-    <color name="white">#FFFFFFFF</color>-->
+    <color name="red_main">#FF1744</color>
+    <color name="red_light">#FF616F</color>
+    <color name="red_dark">#C4001D</color>
 
-    <!--RedPrimary Pallete-->
-    <color name="red_main">#FF003C</color>
-    <color name="red_sec">#E00D76</color>
+    <color name="blue_main">#283593</color>
+    <color name="blue_light">#5F5FC4</color>
+    <color name="blue_dark">#001064</color>
 
-    <color name="purple_main">#A63E97</color>
-    <color name="purple_sec">#645098</color>
+    <color name="white">#000000</color>
+    <color name="black">#FFFFFF</color>
 
-    <color name="blue_main">#33517E</color>
-    <color name="blue_sec">#2F4858</color>
-
-    <color name="dark_gray">#272727</color>
-
+    <color name="transparent">#00000000</color>
 </resources>

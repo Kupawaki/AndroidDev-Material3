@@ -1,33 +1,35 @@
 <resources xmlns:tools="http://schemas.android.com/tools">
-    <!-- Base application theme. -->
-    <style name="Theme.MyApplication" parent="Theme.Material3.Light">
+    <style name="Theme.MyApplication" parent="Theme.Material3.Dark"></style>
 
-        <!-- Status bar color. -->
-        <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
+    <style name="buttonCustom" parent="Widget.Material3.Button">
+        <!--Text Attributes-->
+        <item name="android:text"></item>
+        <item name="android:textColor">@color/red_main</item>
+        <item name="android:textAppearance">@style/TextAppearance.Material3.TitleSmall</item>
 
-        <!-- Customize your theme here. -->
-        <item name="colorPrimary">@color/red_main</item>
-        <item name="colorPrimaryVariant">@color/red_main</item>
-        <item name="colorSecondary">@color/red_main</item>
-        <item name="colorSecondaryVariant">@color/red_main</item>
-        <item name="colorSurface">@color/red_main</item>
-        <item name="colorOnBackground">@color/red_main</item>
-        <item name="colorOnError">@color/red_main</item>
-        <item name="colorOnSurface">@color/red_main</item>
-        <item name="scrimBackground">@color/red_main</item>
+        <!--Container Attributes-->
+        <item name="backgroundTint">@color/transparent</item>
+        <item name="strokeColor">@color/red_main</item>
+        <item name="strokeWidth">1dp</item>
+        <item name="shapeAppearance">@style/smallShapeAppearance</item>
+        <item name="elevation">1dp</item>
+        <item name="rippleColor">@color/blue_light</item>
 
-        <item name="textAppearanceHeadline1">@style/TextAppearance.MaterialComponents.Headline1</item>
-        <item name="textAppearanceHeadline2">@style/TextAppearance.MaterialComponents.Headline2</item>
-        <item name="textAppearanceHeadline3">@style/TextAppearance.MaterialComponents.Headline3</item>
-        <item name="textAppearanceHeadline4">@style/TextAppearance.MaterialComponents.Headline4</item>
-        <item name="textAppearanceHeadline5">@style/TextAppearance.MaterialComponents.Headline5</item>
-        <item name="textAppearanceHeadline6">@style/TextAppearance.MaterialComponents.Headline6</item>
-        <item name="textAppearanceSubtitle1">@style/TextAppearance.MaterialComponents.Subtitle1</item>
-        <item name="textAppearanceSubtitle2">@style/TextAppearance.MaterialComponents.Subtitle2</item>
-        <item name="textAppearanceBody1">@style/TextAppearance.MaterialComponents.Body1</item>
-        <item name="textAppearanceBody2">@style/TextAppearance.MaterialComponents.Body2</item>
-        <item name="textAppearanceCaption">@style/TextAppearance.MaterialComponents.Caption</item>
-        <item name="textAppearanceButton">@style/TextAppearance.MaterialComponents.Button</item>
-        <item name="textAppearanceOverline">@style/TextAppearance.MaterialComponents.Overline</item>
+        <!--Icon Attributes-->
+        <item name="icon">@drawable/button_icon</item>
+        <item name="iconTint">@color/red_main</item>
+        <item name="iconSize">20dp</item>
+        <item name="iconGravity">end</item>
+        <item name="iconPadding">4dp</item>
+    </style>
+
+    <style name="textFieldCustom" parent="Widget.Material3.TextInputEditText.OutlinedBox">
+
+    </style>
+
+    <!--I cannot get this to function properly, the cornerFamily works, but I cant figure out how to tweak the corner size.-->
+    <style name="smallShapeAppearance" parent="ShapeAppearance.Material3.SmallComponent">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">0dp</item>
     </style>
 </resources>
