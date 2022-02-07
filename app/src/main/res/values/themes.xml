@@ -7,6 +7,8 @@
         <item name="colorSecondary">@color/blue_main</item>
         <item name="colorSecondaryVariant">@color/blue_light</item>
         <item name="colorOnSecondary">@color/white</item>
+
+        <item name="actionOverflowMenuStyle">@style/Widget.App.PopupMenu</item>
     </style>
 
     <!--Custom Style For Toolbars-->
@@ -66,7 +68,6 @@
         <item name="android:text"></item>
         <item name="android:textAppearance">@style/TA_button</item>
         <item name="android:textColor">@color/white</item>
-
     </style>
 
     <!--Custom Typography-->
@@ -103,5 +104,13 @@
     <style name="smallShapeAppearance" parent="ShapeAppearance.Material3.SmallComponent">
         <item name="cornerFamily">rounded</item>
         <item name="cornerSize">0dp</item>
+    </style>
+
+
+    <!--Custom Style For Toolbar Menu-->
+    <style name="Widget.App.PopupMenu" parent="Widget.Material3.PopupMenu">
+        <item name="android:popupBackground">@color/red_main</item>
+        <item name="android:popupElevation">20dp</item>
+        <item name="textAppearanceLargePopupMenu">@font/roboto_mono</item>
     </style>
 </resources>

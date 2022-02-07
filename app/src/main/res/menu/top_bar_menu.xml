@@ -21,5 +21,4 @@
         android:title="Break"
         android:contentDescription="This may or may not break the app"
         app:showAsAction="never" />
-
 </menu>
