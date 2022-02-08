@@ -6,9 +6,9 @@ The goals for this week were to work with styles and themes, specifically Materi
 ### Problems Encountered
 
 #### Problem 1: Applying a shape appearance to a custom button
+##### Status: Unsolved
 I would like to make my custom buttons be less rounded than they are. I tried doing this with a shape appearance, as mentioned in the docs. However, while changing the cornerFamily property (rounded, cut) works, tweaking the cornerSize property does not seem to do anything. This means I can have either completely rounded corners, or completely cut.
 
-##### Status: Unsolved
 
 ### App Completion Status
 This Proof of Concept has been fully completed  
